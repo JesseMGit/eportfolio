@@ -1,0 +1,125 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Jesse Mattison">
+	<title>Jesse's Screenprinting Project</title>
+	<link rel="stylesheet" href="{% static 'core/style.css' %}">
+</head>
+
+<body>
+	<nav>
+		<ul>
+			<li><a href="https://google.com">About Me</a></li>
+			<li><a href="black_box_website.html">Black Box Investigation</a></li>
+			<li><strong>Screenprinting Project</strong></li>
+			<li><a href="#">Genetics Documentary</a></li>
+		</ul>
+	</nav>
+	<h1>Screenprinting Project</h1>
+	<h2>Introduction</h2>
+	<p>In our New Media and Technology for Social Change class, we each came up with a design. The design had to involve a photo of ourselves or part of ourselves. The ultimate goal was to screenprint the design, and then push the paint through stencil onto our review card box and onto fabric, which would then be sewn together into a big canvas to display everyone's design.</p>
+	<h2>Content Development and Photography</h2>
+	<div class="sidebyside">
+		<div>
+			<p>The first step towards screenprinting was to develop a concept, and then refine that concept. I decided to bring awareness to the mental impact of photojournalism in war zones, and to have the primary audience be myself and my classmates. I was inspired by Banksy to make something important to acknowledge. I used a picture of my fingers in a photo taking pose, as seen on the side of this paragraph, to represent photojournalism, and then edited a skull in the middle to represent the trauma experienced by photojournalists in warzones or disaster areas.</p>
+		</div>
+		<div>
+			<img src="{% static 'core/Initial_Photo.jpg' %}" alt="Image showing hands in photo taking pose" width="200">
+		</div>
+	</div>
+	<div class="sidebyside">
+		<div>
+			<p>I used the text “REMEMBER THE TRAUMA” to remind people looking at the artwork of the meaning, and to emphasize the meaning. To get the photo of my fingers, a shallow depth of field was used to focus only on the hands, in an insert shot, which is where a part of the body is focused on. To achieve a shallow depth of field, and to retain good lighting, 1/500 shutter speed, which means the shutter closed in 1/500 of a second, and F4.5 aperture opening, which means that the apeture was large, were used. I also added in a skull from iStock. Here is the link to the skull:</p>
+		<a href="https://www.istockphoto.com/photo/human-skull-on-black-background-gm512354578-87133423">iStock skull image</a>
+		</div>
+		<div>
+			<img src="{% static 'core/Skull.jpg' %}" alt="Image of skull" width="200">
+		</div>
+	</div>
+	<h2>Design Formalization</h2>
+	<p>The next step toward screenprinting was to formalize the design in photoshop. I added the initial photo and the skull from istock as separate layers, and then separated the two hands into two layers, as well as getting rid of the background from the initial photo. The thumb in the top hand was skewed, so I rotated it to match the angle of the other thumb, but in doing so, had to fill in a gap. To do so, I used a generative AI fill to fill the gap. After that, I added the form before splitting it into two sections. I put “REMEMBER” in the bottom left of the image and “THE TRAUMA” in the top right of the image and I decided to color the text black. Once I had judged the image done, I had to make it ready to move on to the next step. To move on, I used the stamp filter to color half the image black, and the other half yellow. I then exported two PNGs, one yellow and one black, so the next step could be completed.</p>
+	<div class="sidebyside">
+		<div>
+			<img src="{% static 'core/Jesse_Mattison_Design_Black.png' %}" alt="Black part of my design" width="325">
+		</div>
+		<div>
+			<img src="{% static 'core/Jesse_Mattison_Design_Yellow.png' %}" alt="Yellow part of my design" width="325">
+		</div>
+	</div>
+	<h2>Making of the Frame, Stencil Preparation, and Screenprinting</h2>
+	<div class="sidebyside">
+		<div>
+			<p>After exporting the PNGs, the next step towards screenprinting was to determine the dimensions of the frames used to screenprint by using Illustrator. I made rectangles of successively larger size, until I was able to determine the lengths of the wood I needed to cut. I then used the saws to cut 8 pieces of wood to make my frames out of, as one frame was needed per color, and I was making a design with two colors.</p>
+		</div>
+		<div>
+			<img src="{% static 'core/Cutting.jpg' %}" alt="Photo of cutting wood on the saw" width="200">
+		</div>
+	</div>
+	<div class="sidebyside">
+		<div>
+			<p>Once I had the pieces cut, I glued them together with wood glue, and used staples to hold the frames together until the glue dried.</p>
+		</div>
+		<div>
+			<img src="{% static 'core/Gluing.jpg' %}" alt="Photo of gluing the frame together" width="200">
+		</div>
+	</div>
+	<div class="sidebyside">
+		<div>
+			<p>After the frames were dry, I stretched screens over the frames, held on with staples, to have a medium for the stencils to attach to. Next, I used Silhouette Studio to turn the single color PNGs into files able to be cut by the vinyl cutters, and cut my vinyl stencils. I had to “pick” my stencils, or remove the pieces blocking the paint from going into the wanted positive space, without removing areas not meant to be removed.</p>
+		</div>
+		<div>
+			<img src="{% static 'core/Vinyl_Cutting.jpg' %}""Vinyl_Cutting.jpg" alt="Photo of vinyl cutting machine cutting the vinyl stencil" width="200">
+		</div>
+	</div>
+	<div class="sidebyside">
+		<div>
+			<p>I then ironed the stencil onto my frames, and peeled off the plastic backing to get the stencil nearly ready to print. After that, I taped around my stencil to prevent paint leakage.</p>
+		</div>
+		<div>
+			<img src="{% static 'core/Ironing.jpg' %}" alt="Photo of vinyl stencil being ironed onto frame" width="200">
+		</div>
+	</div>
+	<div class="sidebyside">
+		<div>
+			<img src="{% static 'core/Black_Frame.jpg' %}" alt="Photo of frame for black part of image" width="250">
+		</div>
+		<div>
+			<img src="{% static 'core/Yellow_Frame.jpg' %}" alt="Photo of frame for yellow part of image" width="250">
+		</div>
+	</div>
+<p>Then it was time to screenprint, so I put some paint on my black frame and pushed it through the frame with a squeegee onto paper, fabric, and the review card box. It took a few tries to get the result looking nice. Unfortunately, the yellow frame isn't working quite right, and I ran out of time to get the design looking how I wanted.</p>
+	<div class="sidebyside">
+		<div>
+			<img src="{% static 'core/Paper_1.jpg' %}" alt="Photo of the two best prints I did on paper with only the black part of the design" width="200">
+		</div>
+		<div>
+			<img src="{% static 'core/Printed_Fabric.jpg' %}" alt="Photo of the black part of the design printed of pink fabric" width="200">
+		</div>
+		<div>
+			<img src="{% static 'core/Printed_Box.jpg' %}" alt="Photo of the balck part of the design printed on the review card box" width="200">
+		</div>
+	</div>
+	<h2>Personal Reflection</h2>
+	<p>I enjoyed working with Srimahitha, as it was very helpful in many of the stages to have helping hands and someone to talk to. I was able to come up with an idea quickly and execute that design effectively. I assisted Srimahitha by holding down her frame while stapling, and stretching the screen while attaching the screen. I also helped her get set up with ironing after I had finished ironing. One challenge was lining up the colors during screenprinting, and I never really got it to work. I had to change from two to one color at the very end due to time constraints and issues with my second frame, which was very disappointing to me. One obstacle I overcame was completing the text for this website, as I was having trouble writing some of the sections, but it eventually clicked.</p>
+	<div class="sidebyside">
+		<div>
+			<p>Mr. Sinusas and Srimahitha helped me complete many steps, as Srimahitha helped me staple, as I had a lot of trouble with the staple gun, and Mr. Sinusas helped me print, as I did not quite get how to at first. Knowing how to use Photoshop is a very useful skill that I am sure will be used in future classes and probably in future careers. I would like to procrastinate less, as part of the issue with competing the text for this website was waiting so long that I could not “chunk” it to make it less daunting.staple</p>
+		</div>
+		<div>
+			<img src="{% static 'core/Papers_2.jpg' %}" alt="Photo of the two best prints I did on paper with only the black part of the design" width="200">
+		</div>
+	</div>
+	<div class="sidebyside">
+		<div>
+			<p>I used <strong>critical thinking and problem solving</strong> the most out of the <strong>21st century skills</strong>. Specifically, I <strong>solved problems</strong> throughout the project. One such <strong>problem</strong> was that I made a mistake while “picking” the vinyl stencil, and had to determine what to do. To <strong>solve</strong> this issue, I decided to cut the stencil again, and did not lose too much time in doing so. Another <strong>problem</strong> was that I had to decide what filter to use, and I couldn’t decide. I managed to persevere, and eventually <strong>solved</strong> it by choosing the stamp filter.</p>
+		</div>
+		<div>
+			<img src="{% static 'core/Picking.jpg' %}" alt="Photo of 'picking' vinyl stencil, or removing the unwanted area of the stencil" width="200">
+		</div>
+	</div>
+	</body>
+</html>
