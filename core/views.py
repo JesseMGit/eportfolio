@@ -1,8 +1,7 @@
 from django.shortcuts import render
-from django.http import HttpResponse
 
 def aboutme(request):
-    return HttpResponse(request, "core/aboutme.html")
+    return render(request, "core/aboutme.html")
 
 def screenprint(request):
     return render(request, "core/screenprint.html")
