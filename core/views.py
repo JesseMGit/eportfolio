@@ -8,3 +8,6 @@ def screenprint(request):
 
 def blackbox(request):
     return render(request, "core/blackbox.html")
+
+def geneticsdocumentary(request):
+    return render(request, "core/geneticsdocumentary.html")

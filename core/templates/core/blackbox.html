@@ -1,21 +1,22 @@
 {% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang = "en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset ="UTF-8">
+	<meta name ="viewport" content ="width=device-width, initial-scale=1">
 	<title>Jesse's Black Box Investigation</title>
-	<link rel="stylesheet" href= "{% static 'core/style.css' %}">
+	<link rel = "stylesheet" href = "{% static 'core/style.css' %}">
+	<link rel = "icon" href = "{% static 'core/FaviconTechWebsite.png' %}">
 </head>
 
 <body>
 	<nav>
 		<ul>
-			<li><a href="http://jessempython.pythonanywhere.com">About Me</a></li>
+			<li><a href = "http://jessempython.pythonanywhere.com">About Me</a></li>
 			<li><strong>Black Box Investigation</strong></li>
-			<li><a href="http://jessempython.pythonanywhere.com/screenprint">Screenprinting Project</a></li>
-			<li><a href="#">Genetics Documentary</a></li>
+			<li><a href = "http://jessempython.pythonanywhere.com/screenprint">Screenprinting Project</a></li>
+			<li><a href="https://jessempython.pythonanywhere.com/geneticsdocumentary">Genetics Experiment Documentary</a></li>
 		</ul>
 	</nav>
 	<h1>Black Box Investigation</h1>
@@ -28,17 +29,17 @@
 	<h2>Claim</h2>
 	<p>Inside the mystery black box, there are two separate tanks that are not directly connected.</p>
 	<h2>Evidence</h2>
-	<div class="sidebyside">
+	<div class = "sidebyside">
 		<div>
 			<p>The mystery black box is a black trunk box with a funnel sticking into a hole in the top and a tube
 				sticking out the front. When pouring in a consistent amount of water into the black box, an inconsistent
 				amount of water came out.</p>
 		</div>
 		<div>
-			<img src="{% static 'core/IMG_4360.webp' %}" alt="Image showing classmate pouring boiling hot water into black box" width="200">
+			<img src = "{% static 'core/IMG_4360.webp' %}" alt="Image showing classmate pouring boiling hot water into black box" width="200">
 		</div>
 	</div>
-	<div class="sidebyside">
+	<div class = "sidebyside">
 		<div>
 			<p>For example, trial one poured in 1000 ml, and 830 ml came out, while trial two poured in 1000 ml, but
 				1300 ml came out. After more trials, it became clear that the mystery black box had more water in it
