@@ -11,3 +11,6 @@ def blackbox(request):
 
 def geneticsdocumentary(request):
     return render(request, "core/geneticsdocumentary.html")
+
+def placeholder(request):
+    return render(request, "core/placeholder.html")

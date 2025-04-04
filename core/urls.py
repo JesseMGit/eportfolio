@@ -6,5 +6,6 @@ urlpatterns = [
         path("", views.aboutme, name = "aboutme"),
         path("screenprint", views.screenprint, name = "screenprint"),
         path("blackbox", views.blackbox, name = "blackbox"),
-        path("geneticsdocumentary", views.geneticsdocumentary, name = "geneticsdocumentary")
+        path("geneticsdocumentary", views.geneticsdocumentary, name = "geneticsdocumentary"),
+        path("placeholder", views.placeholder, name = "placeholder")
 ]
