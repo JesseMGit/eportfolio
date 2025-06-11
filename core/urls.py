@@ -7,5 +7,6 @@ urlpatterns = [
         path("screenprint", views.screenprint, name = "screenprint"),
         path("blackbox", views.blackbox, name = "blackbox"),
         path("geneticsdocumentary", views.geneticsdocumentary, name = "geneticsdocumentary"),
-        path("placeholder", views.placeholder, name = "placeholder")
+        path("augbio", views.augbio, name = "augbio"),
+        path("yearbook2425", views.yearbook2425, name = "yearbook2425")
 ]
